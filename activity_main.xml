@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_height="wrap_content"
+        android:text="16진수변환기"
+        android:textSize="80px"
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:text="정수입력"
+        />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="24dp"
+        android:text="문자열 입력"
+        />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="30dp"
+        android:text="16진수"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-200dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/text3" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/text4" />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-350dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/text5" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="300dp"
+        android:text="정수 변환"
+        android:id="@+id/btn1" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="-50dp"
+        android:text="문자열 변환"
+        android:id="@+id/btn2" />
+
+</LinearLayout>
